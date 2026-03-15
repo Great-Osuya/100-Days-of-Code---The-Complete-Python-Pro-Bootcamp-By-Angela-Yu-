@@ -7,7 +7,7 @@ print(type(1234.5))
 print(type(True))
 
 #Type Conversion/ Type Casting:
-int() # converts to integer.
+int() # converts to integer
 float() # converts to float (decimal)
 str() # converts to string
 bool() # converts to bool
