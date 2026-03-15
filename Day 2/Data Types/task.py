@@ -9,7 +9,7 @@ print("Hello"[-1])
 print("Hello")
 print("1234 " + "5678") # Plus sign concatenates here because the computer sees this as string and not numbers
 
-# Integers: Whole numbers (No decimal) written without "". The plus sign (+) works like normal here
+# Integers: Whole numbers (No decimal) written without "". The plus sign (+) works like normal here.
 print(1234 + 5678) # Notice that we got the answer for the summation '6912'
 print(-1234 + 5678)
 print(123_456_789_012) # In the place of commas(,), we can use underscores(_) for our own ease
