@@ -8,7 +8,7 @@ elif size == "M":
 elif size == "L":
     bill += 25
 else:
-    print("Sorry, please enter either S, M, or L.")
+    print("Sorry, please enter S, M, or L.")
 print(bill)
 pepperoni = input("Do you want pepperoni on your pizza? Y or N: ")
 if pepperoni == "Y":
