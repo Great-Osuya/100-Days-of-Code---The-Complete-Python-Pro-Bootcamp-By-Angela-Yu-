@@ -1,0 +1,5 @@
+*.md
+*.yaml
+solution.py
+.gitignore
+__init__.py
