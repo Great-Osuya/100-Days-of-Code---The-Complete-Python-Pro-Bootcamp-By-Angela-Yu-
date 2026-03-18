@@ -26,3 +26,10 @@ if height >= 120:
 
 else:
     print("Sorry, you have to grow taller before you can ride.")
+
+#Logical Operators:
+# 'A and B': #Both conditions must be true or else the statement becomes false
+# 'C or D': #Only one condition needs to be true
+# 'not E': #The condition must be false
+# 'not True': False
+# 'not False': True
