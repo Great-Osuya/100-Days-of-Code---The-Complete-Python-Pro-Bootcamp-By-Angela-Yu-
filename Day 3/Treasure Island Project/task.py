@@ -1,4 +1,4 @@
-#The treasure box was obtained from 'ascii.co.uk
+#The treasure box was obtained from 'https://ascii.co.uk/art'
 print(r'''
 *******************************************************************************
           |                   |                  |                     |
