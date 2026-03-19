@@ -1,10 +1,14 @@
-name = "Angela"
-length = len(name)
-print(length)
-# RULES (and yes, I know the rules are already there).
-# 1. Make sure your variable names are descriptive
-# 2. Don't have spaces between words. Use underscores if space is absolutely necessary
-# 3. Don't start with numbers
-# 4. Don't use special words like print or input
-# 5. Choose simple words that are less likely to become typos
-# 6. Check the company style guidelines if you start work at a company
+# This is how I solved the project.
+print("Welcome to GREAT's Band Name Generator.")
+print("What is the name of the city you grew up in?")
+city_name= input()
+print("What is the name of your pet")
+pet_name = input()
+print("Your brand name could be " + city_name + " " + pet_name)
+
+print("\n")
+#The below is how ANGELA YU solved it
+print("Welcome to the Band Name Generator.")
+city = input("What's the name of the city you grew up in?\n")
+pet = input("What's the name of your pet?\n")
+print("Your band name could be " + city + " " + pet)
