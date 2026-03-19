@@ -1,19 +1,36 @@
-# Write your code below this line 👇
-# \n to make multiple lines with only one line of code. Leave no space between the last variable and "\n"
-# + sign is squeeze multiple strings into one line
-print("Hello" + " " + "Great")
+# you can name your variable anything just make ure it is readable and as specific as possible.
+# avoid using functions as the names of your variable "print", "input", etc.
+name = input("What is your name")
+print(name)
 
-print("Hello Great\nHello Rose\nHello Matthew")
-print("1. Hello World!\n2. Hello World!\n3. Hello World!\n4. Hello World!")
+x = "John"
+print(x)
 
-print("Hello Ada!\n" + "0 " + "Hello Ada!\n" + "Hello Ada!")
+x = "Mark"
+print(x)
+# note that the functon "len()," is to determine number of characters.
+print(len(name))
 
-# the three below have the exact same result
-print("Hello " + "Greg")
-print("Hello" + " Greg")
-print("Hello" + " " + "Greg")
+# Pause 1
+print(len(input("What is your name?")))
+# Pause 2
+username= input("Username")
+length= len(username)
+print(length)
 
-# observer that '\n + space + \n' gives an extra line between the strings. Hence, empty space is a string on its own
-print("Hello Wendy!\n \nHello Wendy!")
-
-print("Hello Angela." + " I am excited to meet you")
+# below is how you switch variables
+name = input("What is your name")
+gender = input("gender")
+name, gender = gender, name
+print(name, gender)
+print(gender, name)
+# or you could switch like this. I am keeping the above name and gender variables the same below
+name = input("What is your name")
+gender = input("gender")
+temp= name
+name= gender
+gender= temp
+print(name, gender)
+print(gender, name)
+print(temp)
+# you can use anything as the temporary variable. Most people use "temp" but any order random thing is fine
