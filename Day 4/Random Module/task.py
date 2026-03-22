@@ -27,4 +27,16 @@ print(My_Module.Goldfish)
 #then to select the specific component you want to highlight or make use of.
 # i.e. <filename.content/component>
 
+#my solution
+Heads_or_tails = random.randint(0,10)
+if Heads_or_tails % 2 == 0:
+    print("Heads") #so if the number is even, it should print heads
+else:
+    print("Tails") #if it is odd, it should print tails
 
+#Angela's solution
+random_head_or_tails = random.randint(0,1)
+if random_head_or_tails == 0:
+    print("Heads")
+else:
+    print("Tails")
