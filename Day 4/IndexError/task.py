@@ -21,4 +21,10 @@ fruits = ["Cherry", "Apple", "Pear"]
 veg = ["Cucumber", "Kale", "Spinnach"]
 greens = [fruits, veg]
 print(greens)
+#note
+print(greens[0]) #this prints out everything in the first list
+print(greens[1]) #this prints out the second list
+print(greens[2])  #this is <IndexError: list index out of range>
+print(greens[0][1]) #this prints out the second item in list 1
+print(greens[1][1]) #this prints out the second item in list 2
 
