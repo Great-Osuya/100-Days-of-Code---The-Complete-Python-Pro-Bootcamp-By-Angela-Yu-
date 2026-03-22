@@ -14,3 +14,10 @@ no_of_states = len(states_of_america)
 # "IndexError: list index out of range". TO solve this, just minus 1
 print(states_of_america[no_of_states - 1]) #This will give us Hawaii which is the 50th state on the list
 # (but 49th if we start counting from zero)
+
+#Nested lists or 2D list
+#say we have 2 lists fruits and vegetables, and we want to put them in one list:
+fruits = ["Cherry", "Apple", "Pear"]
+veg = ["Cucumber", "Kale", "Spinnach"]
+greens = [fruits, veg]
+
