@@ -10,7 +10,7 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey", "Georgia", "Conne
 #<off_by_one_error> occurs when the list counting starts from <1> instead of <0>...
 #when this occurs, you just simply need to minus 1 e.g.
 no_of_states = len(states_of_america)
-#print(states_of_america[no_of_states]) # because the variable <no_of_states> will be <50>, there will be an error =>
+print(states_of_america[no_of_states]) # because the variable <no_of_states> will be <50>, there will be an error =>
 # "IndexError: list index out of range". TO solve this, just minus 1
 print(states_of_america[no_of_states - 1]) #This will give us Hawaii which is the 50th state on the list
 # (but 49th if we start counting from zero)
@@ -20,4 +20,5 @@ print(states_of_america[no_of_states - 1]) #This will give us Hawaii which is th
 fruits = ["Cherry", "Apple", "Pear"]
 veg = ["Cucumber", "Kale", "Spinnach"]
 greens = [fruits, veg]
+print(greens)
 
