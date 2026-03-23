@@ -59,7 +59,7 @@ elif computers_choice == 2:
 
 #Decision
 if choice == computers_choice:
-    print("Draw! Play again")
+    print("It's a draw! Play again")
 elif (choice == 0 and computers_choice == 1) or (choice == 2 and computers_choice == 0) or (choice == 1 and
                                                                                         computers_choice == 2):
     print("You lose!")
