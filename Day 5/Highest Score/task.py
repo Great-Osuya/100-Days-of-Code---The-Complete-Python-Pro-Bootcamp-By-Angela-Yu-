@@ -25,12 +25,13 @@ print(max)
 
 
 #Min function
-print(min(student_scores))
+#print(min(student_scores))
 
 #trying min function with for loops
-min = 0
+min = 200
 for lowest in student_scores:
     if lowest < min:
         min = lowest
-        print(min)
+
+print(min)
 
